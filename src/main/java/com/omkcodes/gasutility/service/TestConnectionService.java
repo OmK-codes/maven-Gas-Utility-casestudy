@@ -4,8 +4,8 @@ import java.sql.Connection;
 
 public class TestConnectionService {
     public static void main(String[] args) {
-        ConnectionService connectionService = new ConnectionService(); // Create an instance
-        Connection connection = connectionService.getConnection(); // Call method on instance
+        ConnectionService connectionService = new ConnectionService();
+        Connection connection = connectionService.getConnection();
 
         if (connection != null) {
             System.out.println("Database connection test successful!");

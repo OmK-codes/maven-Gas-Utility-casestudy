@@ -9,11 +9,11 @@ public interface ServiceRequestService {
 
     void addServiceRequest(ServiceRequest request) throws ServiceRequestException;
 
-    ServiceRequest getServiceRequestById(String requestId) throws ServiceRequestException; // Changed Long to String
+    ServiceRequest getServiceRequestById(String requestId) throws ServiceRequestException;
 
     void updateServiceRequest(ServiceRequest request) throws ServiceRequestException;
 
-    void deleteServiceRequest(String requestId) throws ServiceRequestException; // Changed Long to String
+    void deleteServiceRequest(String requestId) throws ServiceRequestException;
 
     List<ServiceRequest> getAllServiceRequests() throws ServiceRequestException;
 }
